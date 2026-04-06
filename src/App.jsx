@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { BubbleChat } from 'flowise-embed-react'
+import { Analytics } from '@vercel/analytics/react'
 
 function IconLogo() {
   return (
@@ -614,6 +615,7 @@ function App() {
   chatflowid="cddb2df9-cde3-48e6-9c35-1f9f0a7b1933"
   apiHost="https://cloud.flowiseai.com"
 />
+      <Analytics />
     </>
   )
 }
