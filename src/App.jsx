@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { BubbleChat } from 'flowise-embed-react'
 
 function IconLogo() {
   return (
@@ -609,6 +610,10 @@ function App() {
           </div>
         </div>
       </footer>
+      <BubbleChat
+  chatflowid="cddb2df9-cde3-48e6-9c35-1f9f0a7b1933"
+  apiHost="https://cloud.flowiseai.com"
+/>
     </>
   )
 }
