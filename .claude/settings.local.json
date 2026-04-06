@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(mv dentaclinic/* .)",
+      "Bash(mv dentaclinic/.* .)",
+      "Bash(rmdir dentaclinic:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
